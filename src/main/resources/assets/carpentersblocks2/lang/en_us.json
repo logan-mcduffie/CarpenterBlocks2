@@ -1,0 +1,19 @@
+{
+  "item.carpentersblocks2.orichalcum_ingot": "Orichalcum Ingot",
+  "item.carpentersblocks2.orichalcum_nugget": "Orichalcum Nugget",
+  "item.carpentersblocks2.raw_orichalcum": "Raw Orichalcum",
+  "item.carpentersblocks2.dowsing_rod": "Dowsing Rod",
+  "item.carpentersblocks2.blueberries": "Blueberries",
+  "item.carpentersblocks2.blueberry_pie": "Blueberry Pie",
+
+
+  "block.carpentersblocks2.orichalcum_block": "Orichalcum Block",
+  "block.carpentersblocks2.orichalcum_ore": "Orichalcum Ore",
+  "block.carpentersblocks2.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
+  "block.carpentersblocks2.raw_orichalcum_block": "Raw Orichalcum Block",
+  "block.carpentersblocks2.speedy_block": "Speedy Block",
+
+  "itemGroup.carpentersblocks2.orichalcum": "Orichalcum things",
+  "message.carpentersblocks2.dowsing_rod.no_ores_found": "No ores found",
+  "message.carpentersblocks2.speedy_block.message": "Speedy Block is active"
+}

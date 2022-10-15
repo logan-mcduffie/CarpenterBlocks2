@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "carpentersblocks2:orichalcum_ingot"
+    }
+  ],
+  "result": {
+    "item": "carpentersblocks2:orichalcum_nugget",
+    "count": 9
+  }
+}

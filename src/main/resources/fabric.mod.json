@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.lightbringer.carpentermod.CarpenterBlocks2"
+      "net.lightbringer.carpentersblocks2.CarpentersBlocks2"
     ]
   },
   "mixins": [

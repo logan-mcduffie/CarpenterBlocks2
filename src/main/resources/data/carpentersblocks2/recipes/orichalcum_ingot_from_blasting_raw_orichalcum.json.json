@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "carpentersblocks2:raw_orichalcum"
+    },
+    "result": "carpentersblocks2:orichalcum_ingot",
+    "experience": 0.1,
+    "cookingtime": 100
+}
