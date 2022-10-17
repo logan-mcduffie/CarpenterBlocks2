@@ -1,9 +1,9 @@
 {
     "textures": {
-        "particle": "block/chocolate_cake_side",
-        "bottom": "block/chocolate_cake_bottom",
-        "top": "block/chocolate_cake_top",
-        "side": "block/chocolate_cake_side"
+        "particle": "carpentersblocks2:block/chocolate_cake_side",
+        "bottom": "carpentersblocks2:block/chocolate_cake_bottom",
+        "top": "carpentersblocks2:block/chocolate_cake_top",
+        "side": "carpentersblocks2:block/chocolate_cake_side"
     },
     "elements": [
         {   "from": [ 1, 0, 1 ],
