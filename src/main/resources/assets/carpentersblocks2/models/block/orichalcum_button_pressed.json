@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "carpentersblocks2:block/orichalcum_block"
+  }
+}

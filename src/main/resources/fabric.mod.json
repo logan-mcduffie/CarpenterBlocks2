@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.lightbringer.carpentersblocks2.CarpentersBlocks2"
+    ],
+    "client": [
+      "net.lightbringer.carpentersblocks2.CarpentersBlocks2Client"
     ]
   },
   "mixins": [

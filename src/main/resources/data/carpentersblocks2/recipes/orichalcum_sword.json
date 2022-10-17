@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "s"
+  ],
+    "key": {
+        "#": {
+          "item": "carpentersblocks2:orichalcum_ingot"
+        },
+        "s": {
+          "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "carpentersblocks2:orichalcum_sword"
+    }
+}

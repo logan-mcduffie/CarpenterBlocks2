@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "carpentersblocks2:block/orichalcum_slab"
+    },
+    "type=double": {
+      "model": "carpentersblocks2:block/orichalcum_block"
+    },
+    "type=top": {
+      "model": "carpentersblocks2:block/orichalcum_slab_top"
+    }
+  }
+}

@@ -2,6 +2,7 @@ package net.lightbringer.carpentersblocks2;
 
 import net.fabricmc.api.ModInitializer;
 import net.lightbringer.carpentersblocks2.block.ModBlocks;
+import net.lightbringer.carpentersblocks2.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import net.lightbringer.carpentersblocks2.item.ModItems;
@@ -15,5 +16,6 @@ public class CarpentersBlocks2 implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModRegistries.registerModStuffs();
 	}
 }

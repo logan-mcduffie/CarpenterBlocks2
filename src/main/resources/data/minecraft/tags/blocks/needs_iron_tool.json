@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "carpentersblocks2:orichalcum_ore",
+    "carpentersblocks2:deepslate_orichalcum_ore",
+    "carpentersblocks2:orichalcum_block",
+    "carpentersblocks2:raw_orichalcum_block",
+    "carpentersblocks2:speedy_block",
+    "carpentersblocks2:orichalcum_stairs",
+    "carpentersblocks2:orichalcum_slab"
+  ]
+}

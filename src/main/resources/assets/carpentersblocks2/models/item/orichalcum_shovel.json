@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "carpentersblocks2:item/orichalcum_shovel"
+  }
+}

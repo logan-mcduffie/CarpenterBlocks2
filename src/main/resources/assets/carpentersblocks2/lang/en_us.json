@@ -5,6 +5,18 @@
   "item.carpentersblocks2.dowsing_rod": "Dowsing Rod",
   "item.carpentersblocks2.blueberries": "Blueberries",
   "item.carpentersblocks2.blueberry_pie": "Blueberry Pie",
+  "item.carpentersblocks2.coal_sliver": "Coal Sliver",
+  "item.carpentersblocks2.orichalcum_pickaxe": "Orichalcum Pickaxe",
+  "item.carpentersblocks2.orichalcum_axe": "Orichalcum Axe",
+  "item.carpentersblocks2.orichalcum_hoe": "Orichalcum Hoe",
+  "item.carpentersblocks2.orichalcum_sword": "Orichalcum Sword",
+  "item.carpentersblocks2.orichalcum_shovel": "Orichalcum Shovel",
+  "item.carpentersblocks2.orichalcum_paxel": "Orichalcum Paxel",
+  "item.carpentersblocks2.orichalcum_helmet": "Orichalcum Helmet",
+  "item.carpentersblocks2.orichalcum_chestplate": "Orichalcum Chestplate",
+  "item.carpentersblocks2.orichalcum_leggings": "Orichalcum Leggings",
+  "item.carpentersblocks2.orichalcum_boots": "Orichalcum Boots",
+  "item.carpentersblocks2.orichalcum_horse_armor": "Orichalcum Horse Armor",
 
 
   "block.carpentersblocks2.orichalcum_block": "Orichalcum Block",
@@ -12,8 +24,20 @@
   "block.carpentersblocks2.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
   "block.carpentersblocks2.raw_orichalcum_block": "Raw Orichalcum Block",
   "block.carpentersblocks2.speedy_block": "Speedy Block",
+  "block.carpentersblocks2.orichalcum_stairs": "Orichalcum Stairs",
+  "block.carpentersblocks2.orichalcum_slab": "Orichalcum Slab",
+  "block.carpentersblocks2.orichalcum_button": "Orichalcum Button",
+  "block.carpentersblocks2.orichalcum_pressure_plate": "Orichalcum Pressure Plate",
+  "block.carpentersblocks2.orichalcum_fence": "Orichalcum Fence",
+  "block.carpentersblocks2.orichalcum_fence_gate": "Orichalcum Fence Gate",
+  "block.carpentersblocks2.orichalcum_wall": "Orichalcum Wall",
+  "block.carpentersblocks2.cherry_blossom_door": "Cherry Blossom Door",
+  "block.carpentersblocks2.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
 
   "itemGroup.carpentersblocks2.orichalcum": "Orichalcum things",
-  "message.carpentersblocks2.dowsing_rod.no_ores_found": "No ores found",
-  "message.carpentersblocks2.speedy_block.message": "Speedy Block is active"
+  "item.carpentersblocks2.dowsing_rod.no_valuables": "No ores found",
+  "message.carpentersblocks2.speedy_block.message": "Speedy Block is active",
+
+  "item.carpentersblocks2.dowsing_rode.tooltip.shift": "Right click a block to reveal the location of nearby ores",
+  "item.carpentersblocks2.dowsing_rode.tooltip": "Hold §eSHIFT§r to see more information"
 }

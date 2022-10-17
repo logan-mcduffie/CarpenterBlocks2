@@ -5,8 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lightbringer.carpentersblocks2.CarpentersBlocks2;
 import net.lightbringer.carpentersblocks2.block.custom.SpeedyBlock;
 import net.lightbringer.carpentersblocks2.item.ModItemGroups;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -29,6 +28,35 @@ public class ModBlocks {
 
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
             new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_STAIRS = registerBlock("orichalcum_stairs",
+            new StairsBlock(ModBlocks.ORICHALCUM_BLOCK.getDefaultState(),
+                    FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_SLAB = registerBlock("orichalcum_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_BUTTON = registerBlock("orichalcum_button",
+            new StoneButtonBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_PRESSURE_PLATE = registerBlock("orichalcum_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_FENCE = registerBlock("orichalcum_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_FENCE_GATE = registerBlock("orichalcum_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_WALL = registerBlock("orichalcum_wall",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroups.ORICHALCUM);
+
+    public static final Block CHERRY_BLOSSOM_DOOR = registerBlock("cherry_blossom_door",
+            new DoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroups.ORICHALCUM);
+
+    public static final Block CHERRY_BLOSSOM_TRAPDOOR = registerBlock("cherry_blossom_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroups.ORICHALCUM);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(CarpentersBlocks2.MOD_ID, name), block);

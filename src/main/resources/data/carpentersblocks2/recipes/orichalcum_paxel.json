@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAS",
+    " x ",
+    " x "
+  ],
+    "key": {
+        "P": {
+          "item": "carpentersblocks2:orichalcum_pickaxe"
+        },
+        "A": {
+          "item": "carpentersblocks2:orichalcum_axe"
+        },
+        "S": {
+          "item": "carpentersblocks2:orichalcum_shovel"
+        },
+        "x": {
+          "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "carpentersblocks2:orichalcum_paxel"
+    }
+}
