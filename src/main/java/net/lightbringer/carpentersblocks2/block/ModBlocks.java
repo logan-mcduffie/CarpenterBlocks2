@@ -3,12 +3,14 @@ package net.lightbringer.carpentersblocks2.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lightbringer.carpentersblocks2.CarpentersBlocks2;
+import net.lightbringer.carpentersblocks2.block.custom.OrichalcumLampBlock;
 import net.lightbringer.carpentersblocks2.block.custom.SpeedyBlock;
 import net.lightbringer.carpentersblocks2.item.ModItemGroups;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -57,6 +59,14 @@ public class ModBlocks {
 
     public static final Block CHERRY_BLOSSOM_TRAPDOOR = registerBlock("cherry_blossom_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroups.ORICHALCUM);
+
+    public static final Block ORICHALCUM_LAMP = registerBlock("orichalcum_lamp",
+            new OrichalcumLampBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()
+                    .luminance((state) -> state.get(OrichalcumLampBlock.LIT) ? 15 : 0)), ModItemGroups.ORICHALCUM);
+
+    public static final Block CHOCOLATE_CAKE = registerBlock("chocolate_cake",
+            new CakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f).sounds(BlockSoundGroup.WOOL).nonOpaque()), ModItemGroups.ORICHALCUM);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(CarpentersBlocks2.MOD_ID, name), block);
