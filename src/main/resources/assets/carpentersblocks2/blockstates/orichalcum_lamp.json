@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "carpentersblocks2:block/orichalcum_lamp_off" },
+    "lit=true": { "model": "carpentersblocks2:block/orichalcum_lamp_on" }
+  }
+}
