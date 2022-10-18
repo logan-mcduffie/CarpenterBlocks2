@@ -2,9 +2,11 @@ package net.lightbringer.carpentersblocks2.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.lightbringer.carpentersblocks2.CarpentersBlocks2;
+import net.lightbringer.carpentersblocks2.block.ModBlocks;
 import net.lightbringer.carpentersblocks2.item.custom.DowsingRodItem;
 import net.lightbringer.carpentersblocks2.item.custom.ModArmorItem;
 import net.lightbringer.carpentersblocks2.item.custom.ModPaxelItem;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -76,7 +78,6 @@ public class ModItems {
     public static final Item ORICHALCUM_HORSE_ARMOR = registerItem("orichalcum_horse_armor",
             new HorseArmorItem(15, "orichalcum",
                     new FabricItemSettings().group(ItemGroup.COMBAT).group(ModItemGroups.ORICHALCUM)));
-
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CarpentersBlocks2.MOD_ID, name), item);
